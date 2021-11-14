@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ecology</string>
+    <string name="HeadName">Об экологии</string>
+    <string name="start">НАЧАТЬ ОБУЧЕНИЕ</string>
+    <string name="exit">ВЫЙТИ</string>
+    <string name="go_back">ВЕРНУТЬСЯ НАЗАД</string>
+    <string name="choice">ВЫБЕРИ, ЧЕМ ХОЧЕШЬ СЕЙЧАС ЗАНЯТЬСЯ</string>
+    <string name="to_start">ИЗУЧИТЬ НОВОЕ</string>
+    <string name="testing">ПРОЙТИ ТЕСТИРОВАНИЕ</string>
+    <string name="theme">ВЫБЕРИ ТЕМУ</string>
+    <string name="theme_1">ИСТОРИЯ ПОЯВЛЕНИЯ ЭКОЛОГИИ КАК НАУКИ</string>
+    <string name="test">ВЫБЕРИ ТЕМУ ТЕСТА</string>
+</resources>
