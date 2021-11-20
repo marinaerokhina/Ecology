@@ -39,8 +39,49 @@
                 android:layout_below="@id/smthng"
                 android:id="@+id/smth"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
-
-
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_1_1"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_below="@id/smth"
+                android:id="@+id/first"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_1_2"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_below="@id/first"
+                android:id="@+id/first2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_below="@id/first2"
+                android:id="@+id/sm"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        <ImageView
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:src="@drawable/theme_1_1"
+                android:layout_below="@id/first2"
+                android:id="@+id/im_1"
+                />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/theme_1_3"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_below="@id/im_1"
+            android:id="@+id/second"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
     </RelativeLayout>
 
 </ScrollView>
