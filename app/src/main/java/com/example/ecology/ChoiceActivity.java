@@ -17,4 +17,49 @@ public class ChoiceActivity extends AppCompatActivity {
         startActivity(intent);
         onPause();
     }
+    public void theme_2 (View view) {
+        /*Intent intent = new Intent(this, Theme_1.class);
+        startActivity(intent);
+        onPause();*/
+    }
+    public void theme_3 (View view) {
+        /*Intent intent = new Intent(this, Theme_1.class);
+        startActivity(intent);
+        onPause();*/
+    }
+    public void theme_4 (View view) {
+        /*Intent intent = new Intent(this, Theme_1.class);
+        startActivity(intent);
+        onPause();*/
+    }
+    public void theme_5 (View view) {
+        /*Intent intent = new Intent(this, Theme_1.class);
+        startActivity(intent);
+        onPause();*/
+    }
+    public void theme_6 (View view) {
+        /*Intent intent = new Intent(this, Theme_1.class);
+        startActivity(intent);
+        onPause();*/
+    }
+    public void theme_7 (View view) {
+        /*Intent intent = new Intent(this, Theme_1.class);
+        startActivity(intent);
+        onPause();*/
+    }
+    public void theme_8 (View view) {
+        /*Intent intent = new Intent(this, Theme_1.class);
+        startActivity(intent);
+        onPause();*/
+    }
+    public void theme_9 (View view) {
+        /*Intent intent = new Intent(this, Theme_1.class);
+        startActivity(intent);
+        onPause();*/
+    }
+    public void theme_10 (View view) {
+        /*Intent intent = new Intent(this, Theme_1.class);
+        startActivity(intent);
+        onPause();*/
+    }
 }
