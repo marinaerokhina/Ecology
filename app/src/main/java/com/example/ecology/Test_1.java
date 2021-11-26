@@ -50,7 +50,9 @@ public class Test_1 extends AppCompatActivity {
             ans4.setText(a4[cnt]);
         }
         else {
-            /**/
+            /*Intent intent = new Intent(this, Test_1_res.class);
+            start_activity(intent);
+            onPause()*/
         }
     }
     public void onTesting2(View view){
@@ -64,7 +66,9 @@ public class Test_1 extends AppCompatActivity {
             ans4.setText(a4[cnt]);
         }
         else {
-            /**/
+            /*Intent intent = new Intent(this, Test_1_res.class);
+            start_activity(intent);
+            onPause()*/
         }
     }
     public void onTesting3(View view){
@@ -78,7 +82,9 @@ public class Test_1 extends AppCompatActivity {
             ans4.setText(a4[cnt]);
         }
         else {
-            /**/
+            /*Intent intent = new Intent(this, Test_1_res.class);
+            start_activity(intent);
+            onPause()*/
         }
     }
     public void onTesting4(View view){
@@ -92,7 +98,9 @@ public class Test_1 extends AppCompatActivity {
             ans4.setText(a4[cnt]);
         }
         else {
-            /**/
+            /*Intent intent = new Intent(this, Test_1_res.class);
+            start_activity(intent);
+            onPause()*/
         }
     }
 }
