@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void onEntering (View view){
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
-        onPause();
+        /*onPause();*/
     }
     public void onExit(View view){
         onDestroy();
