@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         exit = findViewById(R.id.btn_exit);
     }
     public void onEntering (View view){
-        Intent intent = new Intent(this, HomeActivity.class);
+        Intent intent = new Intent(MainActivity.this, HomeActivity.class);
         startActivity(intent);
         /*onPause();*/
     }
