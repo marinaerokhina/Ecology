@@ -40,10 +40,7 @@ public class Test_1 extends AppCompatActivity {
     }
 
     public void onTesting1(View view){
-        if(r_a[cnt].contentEquals(ans1.getText())){
-            an[cnt]=true;
-        }
-        else an[cnt]=false;
+        an[cnt]= r_a[cnt].contentEquals(ans1.getText());
         cnt++;
         if(cnt<10){
             quest.setText(q[cnt]);
@@ -57,10 +54,7 @@ public class Test_1 extends AppCompatActivity {
         }
     }
     public void onTesting2(View view){
-        if(r_a[cnt].contentEquals(ans2.getText())){
-            an[cnt]=true;
-        }
-        else an[cnt]=false;
+        an[cnt]= r_a[cnt].contentEquals(ans2.getText());
         cnt++;
         if(cnt<10){
             quest.setText(q[cnt]);
@@ -74,10 +68,7 @@ public class Test_1 extends AppCompatActivity {
         }
     }
     public void onTesting3(View view){
-        if(r_a[cnt].contentEquals(ans3.getText())){
-            an[cnt]=true;
-        }
-        else an[cnt]=false;
+        an[cnt]= r_a[cnt].contentEquals(ans3.getText());
         cnt++;
         if(cnt<10){
             quest.setText(q[cnt]);
@@ -91,10 +82,7 @@ public class Test_1 extends AppCompatActivity {
         }
     }
     public void onTesting4(View view){
-        if(r_a[cnt].contentEquals(ans4.getText())){
-            an[cnt]=true;
-        }
-        else an[cnt]=false;
+        an[cnt]= r_a[cnt].contentEquals(ans4.getText());
         cnt++;
         if(cnt<10){
             quest.setText(q[cnt]);
