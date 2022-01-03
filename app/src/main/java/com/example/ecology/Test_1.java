@@ -1,5 +1,6 @@
 package com.example.ecology;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -81,8 +82,8 @@ public class Test_1 extends AppCompatActivity {
         }
         else {
             /*Intent intent = new Intent(this, Test_1_res.class);
-            start_activity(intent);
-            onPause()*/
+            startActivity(intent);
+            onPause();*/
         }
     }
     public void onTesting2(View view){
