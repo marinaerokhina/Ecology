@@ -28,48 +28,48 @@ public class ChoiceActivity extends AppCompatActivity {
         /*Intent intent = new Intent(this, Theme_1.class);
         startActivity(intent);
         onPause();*/
-        Toast.makeText(this, "@string/unavailable_func", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.unavailable_func, Toast.LENGTH_LONG).show();
     }
     public void theme_4 (View view) {
         /*Intent intent = new Intent(this, Theme_1.class);
         startActivity(intent);
         onPause();*/
-        Toast.makeText(this, "@string/unavailable_func", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.unavailable_func, Toast.LENGTH_LONG).show();
     }
     public void theme_5 (View view) {
         /*Intent intent = new Intent(this, Theme_1.class);
         startActivity(intent);
         onPause();*/
-        Toast.makeText(this, "@string/unavailable_func", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.unavailable_func, Toast.LENGTH_LONG).show();
     }
     public void theme_6 (View view) {
         /*Intent intent = new Intent(this, Theme_1.class);
         startActivity(intent);
         onPause();*/
-        Toast.makeText(this, "@string/unavailable_func", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.unavailable_func, Toast.LENGTH_LONG).show();
     }
     public void theme_7 (View view) {
         /*Intent intent = new Intent(this, Theme_1.class);
         startActivity(intent);
         onPause();*/
-        Toast.makeText(this, "@string/unavailable_func", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.unavailable_func, Toast.LENGTH_LONG).show();
     }
     public void theme_8 (View view) {
         /*Intent intent = new Intent(this, Theme_1.class);
         startActivity(intent);
         onPause();*/
-        Toast.makeText(this, "@string/unavailable_func", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.unavailable_func, Toast.LENGTH_LONG).show();
     }
     public void theme_9 (View view) {
         /*Intent intent = new Intent(this, Theme_1.class);
         startActivity(intent);
         onPause();*/
-        Toast.makeText(this, "@string/unavailable_func", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.unavailable_func, Toast.LENGTH_LONG).show();
     }
     public void theme_10 (View view) {
         /*Intent intent = new Intent(this, Theme_1.class);
         startActivity(intent);
         onPause();*/
-        Toast.makeText(this, "@string/unavailable_func", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, R.string.unavailable_func, Toast.LENGTH_LONG).show();
     }
 }
