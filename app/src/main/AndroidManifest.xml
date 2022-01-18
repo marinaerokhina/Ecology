@@ -20,6 +20,7 @@
         <activity android:name=".TestChoiceActivity"/>
         <activity android:name=".Test_1"/>
         <activity android:name=".Theme_1"/>
+        <activity android:name=".Test1ResultActivity"/>
     </application>
 
 </manifest>
