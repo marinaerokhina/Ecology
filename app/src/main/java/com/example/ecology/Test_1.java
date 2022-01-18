@@ -109,22 +109,10 @@ public class Test_1 extends AppCompatActivity {
             ans3.setText(a3[cnt]);
             ans4.setText(a4[cnt]);
         }
-        else if (cnt<11){
-            an[cnt]= r_a[cnt].contentEquals(ans1.getText());
-            if (an[cnt]){
-                count++;
-            }
-            cnt++;
-            quest.setText("Вы закончили выполнение теста");
-            ans1.setText("Посмотреть результат");
-            ans2.setText("Перейти в раздел тестов");
-            ans3.setText("Перейти в раздел тем");
-            ans4.setText("Перейти к теме теста");
-        }
-        else  {
-            ResultFragment dialog = new ResultFragment();
-            dialog.setCount(count);
-            dialog.show(getSupportFragmentManager(), "custom");
+        else {
+            Intent intent = new Intent(this, Test1ResultActivity.class);
+            startActivity(intent);
+            onPause();
         }
     }
     public void onTesting2(View view){
@@ -137,20 +125,8 @@ public class Test_1 extends AppCompatActivity {
             ans3.setText(a3[cnt]);
             ans4.setText(a4[cnt]);
         }
-        else if (cnt<11){
-            an[cnt]= r_a[cnt].contentEquals(ans2.getText());
-            if (an[cnt]){
-                count++;
-            }
-            cnt++;
-            quest.setText("Вы закончили выполнение теста");
-            ans1.setText("Посмотреть результат");
-            ans2.setText("Перейти в раздел тестов");
-            ans3.setText("Перейти в раздел тем");
-            ans4.setText("Перейти к теме теста");
-        }
         else {
-            Intent intent = new Intent(this, TestChoiceActivity.class);
+            Intent intent = new Intent(this, Test1ResultActivity.class);
             startActivity(intent);
             onPause();
         }
@@ -165,20 +141,8 @@ public class Test_1 extends AppCompatActivity {
             ans3.setText(a3[cnt]);
             ans4.setText(a4[cnt]);
         }
-        else if (cnt<11){
-            an[cnt]= r_a[cnt].contentEquals(ans3.getText());
-            if (an[cnt]){
-                count++;
-            }
-            cnt++;
-            quest.setText("Вы закончили выполнение теста");
-            ans1.setText("Посмотреть результат");
-            ans2.setText("Перейти в раздел тестов");
-            ans3.setText("Перейти в раздел тем");
-            ans4.setText("Перейти к теме теста");
-        }
         else {
-            Intent intent = new Intent(this, ChoiceActivity.class);
+            Intent intent = new Intent(this, Test1ResultActivity.class);
             startActivity(intent);
             onPause();
         }
@@ -193,20 +157,8 @@ public class Test_1 extends AppCompatActivity {
             ans3.setText(a3[cnt]);
             ans4.setText(a4[cnt]);
         }
-        else if (cnt<11){
-            an[cnt]= r_a[cnt].contentEquals(ans4.getText());
-            if (an[cnt]){
-                count++;
-            }
-            cnt++;
-            quest.setText("Вы закончили выполнение теста");
-            ans1.setText("Посмотреть результат");
-            ans2.setText("Перейти в раздел тестов");
-            ans3.setText("Перейти в раздел тем");
-            ans4.setText("Перейти к теме теста");
-        }
         else {
-            Intent intent = new Intent(this, Theme_1.class);
+            Intent intent = new Intent(this, Test1ResultActivity.class);
             startActivity(intent);
             onPause();
         }

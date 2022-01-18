@@ -8,26 +8,12 @@
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btn_back"
-                android:text="@string/go_back"
-                android:textColor="@color/white"
-                android:background="@color/dark_green"
-                android:textSize="30sp"
-                android:onClick="onGoingBack"
-                android:layout_centerInParent="true"
-                android:layout_alignParentTop="true"
-                android:backgroundTint="@color/red"
-                />
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
                 android:textSize="30sp"
                 android:gravity="center"
-                android:layout_below="@id/btn_back"
                 android:id="@+id/smthng"/>
         <TextView
                 android:layout_width="match_parent"

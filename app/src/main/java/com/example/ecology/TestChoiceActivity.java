@@ -13,12 +13,6 @@ public class TestChoiceActivity extends AppCompatActivity {
         setContentView(R.layout.activity_testchoice);
     }
 
-    public void onGoingBack(View view){
-        Intent intent = new Intent(this, HomeActivity.class);
-        startActivity(intent);
-        onDestroy();
-    }
-
     public void test_1 (View view){
         Intent intent = new Intent(this, Test_1.class);
         startActivity(intent);

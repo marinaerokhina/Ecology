@@ -15,12 +15,6 @@ Button back, start, test;
         setContentView(R.layout.activity_home);
     }
 
-    public void onGoingBack(View view) {
-       /* Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);*/
-        onDestroy();
-    }
-
     public void onStarting(View view) {
         Intent intent = new Intent(this, ChoiceActivity.class);
         startActivity(intent);

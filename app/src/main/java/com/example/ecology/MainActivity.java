@@ -14,18 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         enter = findViewById(R.id.btn_enter);
-        exit = findViewById(R.id.btn_exit);
     }
     public void onEntering (View view){
         Intent intent = new Intent(MainActivity.this, HomeActivity.class);
         startActivity(intent);
         /*onPause();*/
-    }
-    public void onExit(View view){
-        onDestroy();
-    }
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
     }
 }
