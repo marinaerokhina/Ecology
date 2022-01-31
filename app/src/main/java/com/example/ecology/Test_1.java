@@ -111,6 +111,7 @@ public class Test_1 extends AppCompatActivity {
         }
         else {
             Intent intent = new Intent(this, Test1ResultActivity.class);
+            intent.putExtra("res", an);
             startActivity(intent);
             onPause();
         }
@@ -127,6 +128,7 @@ public class Test_1 extends AppCompatActivity {
         }
         else {
             Intent intent = new Intent(this, Test1ResultActivity.class);
+            intent.putExtra("res", an);
             startActivity(intent);
             onPause();
         }
@@ -143,6 +145,7 @@ public class Test_1 extends AppCompatActivity {
         }
         else {
             Intent intent = new Intent(this, Test1ResultActivity.class);
+            intent.putExtra("res", an);
             startActivity(intent);
             onPause();
         }
@@ -159,6 +162,7 @@ public class Test_1 extends AppCompatActivity {
         }
         else {
             Intent intent = new Intent(this, Test1ResultActivity.class);
+            intent.putExtra("res", an);
             startActivity(intent);
             onPause();
         }
